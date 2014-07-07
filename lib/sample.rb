@@ -1,5 +1,11 @@
 require "sample/version"
 
 module Sample
-  # Your code goes here...
+  class Sample
+    def sample_method
+      "Test"
+    end
+  end
 end
+sample = Sample::Sample.new
+sample
